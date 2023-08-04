@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", "Sans Serif";
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(6, 18, 34);
+    background-color: linear-gradient(90deg, rgba(6, 18, 34, 1) 6%, rgba(19, 94, 176, 1) 46%, rgba(47, 73, 102, 1) 100%);
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Common Ends */
+
+/* Navbar Starts */
+
+.nav-buttons .second-btn {
+    background-color: #FF4820 !important;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+}
+
+.nav-buttons .first-btn {
+    padding: 10px 40px;
+}
+
+.navbar {
+    background-color:rgb(6, 18, 34);
+}
+
+/* Navbar Ends */
+
+/* Homepage Starts */
+h1 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p {
+    color: #81AFDD;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.content input {
+    background: #052D56 !important;
+    border-radius: 5px 0px 0px 5px !important;
+    border: none;
+    padding: 20px;
+}
+
+.homepage .content.content button {
+    background: #FF4820;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    color: white;
+}
+
+.content input::placeholder {
+    color: #3D6184;
+}
+
+
+.homepage .content button:hover {
+    background: #FF4820;
+}
+
+.social-icons i {
+    color: #81AFDD;
+}
+
+/* Homepage ends */
+
+/* About-us starts */
+
+.about-us .container {
+    background-image: linear-gradient(to left, #042c54 0%, #0d4a8a 97.4%);
+}
+
+
+.about-us p {
+    color: #81AFDD;
+}
+
+.section-2 p {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* About-us ends */
+
+/* Early Access Starts */
+
+.early-access h3 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.early-access a p {
+    color: #FF8A71;
+}
+
+/* Early Access Ends */
+
+/* My Apps Starts */
+
+.my-apps-paragraph h3 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.my-apps-paragraph p {
+    color: #81AFDD;
+}
+
+.my-apps-paragraph a p {
+    color: #FF8A71;
+}
+/* My Apps ends */
+
+.get-started .container {
+    background-image: linear-gradient(to right, #AE67FA 0%, #F49867 97.4%);
+}
+
+.get-started p,
+.get-started a {
+    color: #000000
+}
+
+.get-started button {
+    background-color: #000000;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 35px;
+}
+
+.blog h3 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    background-color: #042C54;
+}
+
+footer {
+    background-color: #031B34;
+}
+
+footer h3 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-button button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    transition: all 0.6s;
+}
+
+.footer-button button:hover {
+    background-color: #FF4820;
+    color: white;
+}
+
+.line-above {
+    position: relative;
+}
+
+.line-above::after {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    ;
+    width: 45px;
+    height: 3px;
+    left: 1.5%;
+    bottom: 99%;
+    margin-bottom: 10px;
+}
+
+.card-img {
+    overflow: hidden;
+}
+
+.card-img img {
+    transition: all 0.6s;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.get-started-button button {
+    transition: all 0.6s;
+}
+
+.get-started-button button:hover {
+    transform: scale(1.1);
+}
+
+
+.blog .item .card {
+    min-height: 500px;
+}
+
+.table-colored {
+    color: #81AFDD
+}
+
+.item .card a {
+    color: #FF8A71;
+}
